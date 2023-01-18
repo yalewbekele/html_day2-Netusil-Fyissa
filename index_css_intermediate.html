@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles_intermediate.css">
+    <meta name="author" content="Thomas Netusil">
+    <meta name="author" content="Yalew Fyissa">
+    <meta name="description"
+        content="Create an HTML document, including a link to an external CSS file in the &lt;head&gt; section. Within the body, recreate this DOM tree structure.">
+    <title>Page with external CCS File </title>
+</head>
+
+<body>
+    <h1>Header out of container because there is no arrow</h1>
+    <div class="container">
+        <div class="left" id="first">
+            <div class="left" id="third">
+                <p>p third</p>
+                <span>span third</span>
+            </div>
+            <div class="left" id="fourth">
+                <ul>
+                    <li>fourth li 1</li>
+                    <li>fourth li 2</li>
+                    <li>fourth li 3</li>
+                </ul>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="right" id="second">
+            <div class="right" id="fifth">
+                <p id="fifthimportant">fifth</p>
+            </div>
+            <div class="right" id="sixth">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/SIX_Group_logo.svg" alt="Six">
+            </div>
+        </div>
+        <form action="">
+            <label for="text1">Text1:</label>
+            <input type="text" name="text1" id="text1">
+            <label for="text2">Text2:</label>
+            <input type="text" name="text2" id="text2">
+            <input type="button" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>

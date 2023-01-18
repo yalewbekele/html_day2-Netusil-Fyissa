@@ -1,0 +1,31 @@
+/* This is our first Stilesheet so be nice */
+div {
+    margin: 5px;
+}
+
+h1 {
+    color: blue;
+}
+
+/* div>span {
+    visibility: hidden;
+}
+
+.right p {
+    display: none;
+} */
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+form {
+    width: 50%;
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#fifthimportant {
+    background-color: yellowgreen;
