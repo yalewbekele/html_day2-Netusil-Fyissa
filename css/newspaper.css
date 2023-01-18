@@ -4,6 +4,26 @@ header h1 {
     text-align: center;
 }
 
+header {
+    position: sticky;
+    top: 0;
+}
+
 main {
     background-color: blanchedalmond;
+    width: 70%;
+    margin-right: 25%;
+
+}
+
+aside {
+    position: fixed;
+    top: 8rem;
+    right: 1rem;
+    width: 24%;
+
+}
+
+article {
+    border-bottom-style: dashed;
 }
