@@ -1,1 +1,21 @@
-/* This is our first Stilesheet so be nice
+/* This is our first Stilesheet so be nice */
+div {
+    margin: 5px;
+}
+
+h1 {
+    color: blue;
+}
+
+div>span {
+    visibility: hidden;
+}
+
+.right p {
+    display: none;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
